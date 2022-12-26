@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "12124605"))
-    API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5660564414:AAE2Hem9t5uouIXHlMMV6Rq-D8A8L1k5ku8")
+    API_ID = int(os.getenv("API_ID", "19630463"))
+    API_HASH = os.getenv("API_HASH", "29b23e7e7ced8b8682ad5abfef8a4abe")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5743456250:AAHgVEfs7ePQNUwjeXrrZld9x61h9Z9f29M")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQB2uzTp9y1BxmTs4qBiJFL3AaSK3jV-ePh5ieupXOOpkLijHPBvNpoVu28RJEdldFhFmlzvH36onJ0F8p0weERKkPU8WR6HYZEsBMCuZ3iZkzQEZ1SiQ5ljymmbIWEvm3G3w8gvAX8CbeEbDQuedCTxPwI7vVf1g5y5tHspVr7bmNahJz7lhoQUQ5BchQsLCV_O1to0TKPgx5RVy4NKmWktsVl3WpCMhQ1h53UUNlbwKDuTyEYS01FRGyyUBWHidw7la00Hie3Eq533aiiloVeak67QgWZiXC-jISbIFaEmGMosWhSyBboCy4yImWtCGWVaYXCBVuVYD93vZKHLhf8XTUC_TgA")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001579451015")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "ATM_Rename_Bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "1296088910"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "cynitebackup")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "how_to_download_movie_ka_video")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -29,15 +29,15 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001249072794")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001796458234"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001778768001")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://atm:atm@cluster0.cu8nfve.mongodb.net/?retryWrites=true&w=majority)
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001896305922"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "cynitebackup")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "ATM_Film_HD")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
-    MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
+    MDISK_API = os.getenv("MDISK_API", "GN8omwfNe1ssLar441IO")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! 
 
